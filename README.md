@@ -348,7 +348,7 @@ And then
 	
 If you're positive Exploit is Command Injection and can't get hits try:
 ```
-[https://github.com/payloadbox/command-injection-payload-list]
+[https://github.com/payloadbox/command-injection-payload-list](https://github.com/payloadbox/command-injection-payload-list)
 ```
 	
 Bypassing with base64 encode
