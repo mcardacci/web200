@@ -346,7 +346,7 @@ FAIL_INTENT||`echo 'aWQK' |base64 -d`
 And then 
 `wfuzz -c -z file,/home/kali/command_injection_custom.txt --hc 404 http://ci-sandbox:80/php/blocklisted.php?ip=127.0.0.1FUZZ`
 	
-If you're positive Exploit is Command Injection and can't get hits try:
+If you're positive the target exploit is Command Injection and can't get hits try:
 	
 [Command Injection Wordlist](https://github.com/payloadbox/command-injection-payload-list)
 	
