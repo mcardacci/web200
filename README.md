@@ -347,7 +347,7 @@ And then
 `wfuzz -c -z file,/home/kali/command_injection_custom.txt --hc 404 http://ci-sandbox:80/php/blocklisted.php?ip=127.0.0.1FUZZ`
 	
 If you're positive Exploit is Command Injection and can't get hits try:
-[https://github.com/payloadbox/command-injection-payload-list]
+<b>[https://github.com/payloadbox/command-injection-payload-list](Command Injection Wordlist)<b>
 	
 Bypassing with base64 encode
 ```
