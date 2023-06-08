@@ -437,7 +437,8 @@ wfuzz -c -z file,/usr/share/seclists/Passwords/xato-net-10-million-passwords-100
 <entity-engine-xml>
 </entity-engine-xml>
 
-	
+<script>alert(1)</script>
+<img src=x onerrror='alert(1)'>	
 ```
 	
 ### Reporting Checklist 
