@@ -13,7 +13,7 @@
 * Pw / Username discovery - cewl - `cewl -d 2 -m 5 -w docswords.txt https://example.com`
 * Binary discovery on box: ` which nc socat curl wget bash sh`
 ## Test All Of These Scenarios!
-- [ ] cewl/dirsearch
+- [x] cewl/dirsearch
 - [ ] xss
 - [ ] xss w/cross origin
 - [ ] SQLi
