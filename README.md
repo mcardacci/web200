@@ -10,7 +10,7 @@
 	* gobuster dir -u $URL -w /usr/share/wordlists/dirb/common.txt -t 5 -b 301
 	* gobuster dns -d megacorpone.com -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt -t 30
 
-* Pw / Username discovery - cewl - `cewl -d 2 -m 5 -w docswords.txt https://example.com`
+* Pw / Username discovery - cewl - `cewl -d 3 -m 5 -w docswords.txt https://example.com`
 * Binary discovery on box: ` which nc socat curl wget bash sh`
 ## Test All Of These Scenarios!
 - [ ] cewl/dirsearch
